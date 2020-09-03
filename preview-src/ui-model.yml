@@ -1,24 +1,25 @@
 antoraVersion: '1.0.0'
 site:
   url: http://localhost:5252
-  title: Brand Docs
+  key: mbp
+  title: My Beautiful Project
   homeUrl: &home_url /xyz/5.2/index.html
   components:
   - name: abc
-    title: Project ABC
+    title: Component ABC
     url: '#'
     versions:
     - &latest_version_abc
-      url: '#' 
+      url: '#'
       version: '1.1'
       displayVersion: '1.1'
-    - url: '#' 
+    - url: '#'
       version: '1.0'
       displayVersion: '1.0'
     latestVersion: *latest_version_abc
   - &component
     name: xyz
-    title: Project XYZ
+    title: Component XYZ
     url: /xyz/6.0/index.html
     versions:
     - &latest_version_xyz
@@ -26,28 +27,28 @@ site:
       version: '6.0'
       displayVersion: '6.0'
     - &component_version
-      url: '#' 
+      url: '#'
       version: '5.2'
       displayVersion: '5.2'
-    - url: '#' 
+    - url: '#'
       version: '5.1'
       displayVersion: '5.1'
-    - url: '#' 
+    - url: '#'
       version: '5.0'
       displayVersion: '5.0'
     latestVersion: *latest_version_xyz
   - name: 123
-    title: Project 123
+    title: Component 123
     url: '#'
     versions:
     - &latest_version_123
-      url: '#' 
+      url: '#'
       version: '2.2'
       displayVersion: '2.2'
-    - url: '#' 
+    - url: '#'
       version: '2.1'
       displayVersion: '2.1'
-    - url: '#' 
+    - url: '#'
       version: '2.0'
       displayVersion: '2.0'
     latestVersion: *latest_version_123
@@ -94,7 +95,7 @@ page:
     url: '#'
   navigation:
   - root: true
-    content: Project XYZ
+    content: Component XYZ
     url: '#'
     urlType: fragment
     items:
