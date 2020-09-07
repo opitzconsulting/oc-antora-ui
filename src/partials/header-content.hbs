@@ -16,7 +16,7 @@
           {{#each site.components}}
             {{#each ./versions}}
             {{~#if (eq this ../latestVersion)}}
-            <a class="navbar-item" href="{{{relativize @root.page.url ./url}}}">{{{../title}}}</a>
+            <a class="navbar-item" href="{{{relativize ./url}}}">{{{../title}}}</a>
             {{/if}}
             {{/each}}
           {{/each}}
