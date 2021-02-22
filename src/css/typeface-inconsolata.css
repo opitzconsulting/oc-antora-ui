@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Inconsolata"),
+    local("Inconsolata-Regular"),
+    url(~typeface-inconsolata/files/inconsolata-latin-400.woff2) format("woff2"),
+    url(~typeface-inconsolata/files/inconsolata-latin-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Inconsolata Medium"),
+    local("Inconsolata-Medium"),
+    url(~typeface-inconsolata/files/inconsolata-latin-500.woff2) format("woff2"),
+    url(~typeface-inconsolata/files/inconsolata-latin-500.woff) format("woff");
+}
