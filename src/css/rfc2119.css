@@ -1,0 +1,29 @@
+.must-keyword {
+  text-decoration: underline;
+  color: red;
+}
+
+.must-not-keyword {
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+
+.should-keyword {
+  text-decoration: underline;
+  color: #b8860b;
+  font-style: italic;
+}
+
+.should-not-keyword {
+  text-decoration: underline;
+  color: #b8860b;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.may-keyword {
+  text-decoration: underline;
+  color: green;
+  font-style: italic;
+}
